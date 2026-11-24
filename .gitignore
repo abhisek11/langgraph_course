@@ -1,0 +1,43 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# LangGraph / local databases & checkpoints
+.langgraph_api/
+*.db
+*.sqlite
+*.sqlite3
+
+# Test, lint, and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
